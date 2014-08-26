@@ -35,7 +35,7 @@ static const void *Hysteriatag = &Hysteriatag;
 @property (nonatomic, readwrite) BOOL isInEmptySound;
 
 @property (nonatomic, strong) NSMutableSet *delegates;
-@property (nonatomic, strong) AVQueuePlayer *audioPlayer;
+
 @property (nonatomic) BOOL PAUSE_REASON_ForcePause;
 @property (nonatomic) BOOL PAUSE_REASON_Buffering;
 @property (nonatomic) BOOL isPreBuffered;
